@@ -4,6 +4,10 @@
 // custom
 @import "./variables";
 @import "node_modules/bootstrap/scss/buttons";
+@import "node_modules/bootstrap/scss/reboot";
+@import "node_modules/bootstrap/scss/progress";
+@import "node_modules/bootstrap/scss/badge";
 @import "./base";
 @import "./components";
 @import "./nav";
+@import "./header";

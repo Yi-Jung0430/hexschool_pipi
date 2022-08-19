@@ -1,0 +1,21 @@
+header .badge {
+    background-color: $gray-750;
+}
+
+.header {
+    &__goal {
+        color:$gray-650;
+        font-size: 14px;
+        padding-left: 0;
+        font-weight: 500;
+    }
+    &__price {
+        line-height: 56px;
+        font-weight: 800;
+    }
+    &__icon {
+        height: 24px;
+        width: 24px;
+    }
+}
+

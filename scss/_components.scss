@@ -3,3 +3,12 @@
     background-color: $secondary;
     border: 2px solid $secondary;
 }
+
+.bd-callout {
+    padding: 1.25rem;
+    border-left-width: 0.25rem;
+    border-radius: 0.25rem;
+    border-left-color: $primary;
+    background-color: #fff;
+    border-left: solid 0.25rem $primary;
+}

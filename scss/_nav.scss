@@ -1,5 +1,5 @@
 // 圖片取代文字
-.header h1 a {
+.nav h1 a {
     background-image: url(../img/logo.jpg);
     width: 111px;
     height: 40px;
@@ -8,6 +8,7 @@
     text-indent: 101%;
     white-space: nowrap;
     overflow: hidden;
+    margin-left: 16px;
 }
 
 .nav-link {

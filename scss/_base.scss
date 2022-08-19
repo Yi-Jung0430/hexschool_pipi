@@ -1,3 +1,7 @@
+body {
+    background: #F8F9FA;
+}
+
 ul {
     list-style-type: none;
 }
@@ -25,4 +29,8 @@ ul {
 
 .mr-3 {
     margin-right: $spacer;
+}
+
+.mr-1 {
+    margin-right: $spacer * .5;
 }
