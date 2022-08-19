@@ -3158,9 +3158,9 @@ textarea.form-control-lg {
 
 .btn {
   display: inline-block;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1.5;
-  color: #212529;
+  color: #636057;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
@@ -3170,10 +3170,10 @@ textarea.form-control-lg {
       -ms-user-select: none;
           user-select: none;
   background-color: transparent;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
-  border-radius: 0.25rem;
+  border-radius: 50rem;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4462,8 +4462,8 @@ fieldset:disabled .btn {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .navbar > .container,
@@ -11953,9 +11953,9 @@ fieldset:disabled .btn {
 
 .btn {
   display: inline-block;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1.5;
-  color: #212529;
+  color: #636057;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
@@ -11965,10 +11965,10 @@ fieldset:disabled .btn {
       -ms-user-select: none;
           user-select: none;
   background-color: transparent;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   padding: 0.375rem 2rem;
   font-size: 1rem;
-  border-radius: 0.25rem;
+  border-radius: 50rem;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -12078,6 +12078,47 @@ fieldset:disabled .btn {
   color: #000;
   background-color: #FF785E;
   border-color: #FF785E;
+}
+
+.btn-third {
+  color: #fff;
+  background-color: #636057;
+  border-color: #636057;
+}
+
+.btn-third:hover {
+  color: #fff;
+  background-color: #54524a;
+  border-color: #4f4d46;
+}
+
+.btn-check:focus + .btn-third, .btn-third:focus {
+  color: #fff;
+  background-color: #54524a;
+  border-color: #4f4d46;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(122, 120, 112, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(122, 120, 112, 0.5);
+}
+
+.btn-check:checked + .btn-third,
+.btn-check:active + .btn-third, .btn-third:active, .btn-third.active,
+.show > .btn-third.dropdown-toggle {
+  color: #fff;
+  background-color: #4f4d46;
+  border-color: #4a4841;
+}
+
+.btn-check:checked + .btn-third:focus,
+.btn-check:active + .btn-third:focus, .btn-third:active:focus, .btn-third.active:focus,
+.show > .btn-third.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(122, 120, 112, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(122, 120, 112, 0.5);
+}
+
+.btn-third:disabled, .btn-third.disabled {
+  color: #fff;
+  background-color: #636057;
+  border-color: #636057;
 }
 
 .btn-success {
@@ -12394,6 +12435,40 @@ fieldset:disabled .btn {
   background-color: transparent;
 }
 
+.btn-outline-third {
+  color: #636057;
+  border-color: #636057;
+}
+
+.btn-outline-third:hover {
+  color: #fff;
+  background-color: #636057;
+  border-color: #636057;
+}
+
+.btn-check:focus + .btn-outline-third, .btn-outline-third:focus {
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(99, 96, 87, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(99, 96, 87, 0.5);
+}
+
+.btn-check:checked + .btn-outline-third,
+.btn-check:active + .btn-outline-third, .btn-outline-third:active, .btn-outline-third.active, .btn-outline-third.dropdown-toggle.show {
+  color: #fff;
+  background-color: #636057;
+  border-color: #636057;
+}
+
+.btn-check:checked + .btn-outline-third:focus,
+.btn-check:active + .btn-outline-third:focus, .btn-outline-third:active:focus, .btn-outline-third.active:focus, .btn-outline-third.dropdown-toggle.show:focus {
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(99, 96, 87, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(99, 96, 87, 0.5);
+}
+
+.btn-outline-third:disabled, .btn-outline-third.disabled {
+  color: #636057;
+  background-color: transparent;
+}
+
 .btn-outline-success {
   color: #198754;
   border-color: #198754;
@@ -12599,7 +12674,7 @@ fieldset:disabled .btn {
 }
 
 .btn-link {
-  font-weight: 400;
+  font-weight: 600;
   color: #0d6efd;
   text-decoration: underline;
 }
@@ -12615,12 +12690,77 @@ fieldset:disabled .btn {
 .btn-lg, .btn-group-lg > .btn {
   padding: 0.75rem 1rem;
   font-size: 1.25rem;
-  border-radius: 0.3rem;
+  border-radius: 50rem;
 }
 
 .btn-sm, .btn-group-sm > .btn {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   border-radius: 0.2rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.ms-1 {
+  margin-left: 0.25rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.p-3 {
+  padding: 1rem !important;
+}
+
+.mr-8 {
+  margin-right: 3rem;
+}
+
+.mr-3 {
+  margin-right: 1rem;
+}
+
+.btn-primary:hover {
+  color: white;
+  background-color: #FF785E;
+  border: 2px solid #FF785E;
+}
+
+.header h1 a, .header .h1 a {
+  background-image: url(../img/logo.jpg);
+  width: 111px;
+  height: 40px;
+  background-size: contain;
+  display: block;
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.nav-link {
+  color: #636057;
+  font-weight: 600;
+}
+
+nav {
+  border-bottom: 5px solid #FFDF65;
+}
+
+@media (max-width: 992px) {
+  .navbar-light .navbar-nav .nav-link {
+    text-align: center;
+  }
+  .cu-nav {
+    background-color: #fff0b3;
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=custom.css.map */
