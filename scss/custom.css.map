@@ -89,7 +89,7 @@
         "node_modules/bootstrap/scss/_buttons.scss",
         "_base.scss",
         "_components.scss",
-        "_header.scss"
+        "_nav.scss"
     ],
     "names": [],
     "file": "custom.css"
