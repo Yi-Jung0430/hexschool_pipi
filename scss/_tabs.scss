@@ -1,0 +1,32 @@
+.nav-tabs .nav-link.active {
+    border-color : #fff #fff $primary #fff;
+    border-bottom: 3px solid $primary;
+    font-weight: bolder;
+}
+
+.nav-tabs .nav-link {
+    padding-top:24px;
+    padding-bottom:24px;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.nav-tabs .nav-link:hover {
+    border-color: #fff;
+}
+
+.nav-tabs {
+    border-bottom: 0 solid #dee2e6;
+}
+
+.main {
+    background-color: #fff;
+}
+
+.tab {
+    &__bg {
+        background-color: #fff;
+        margin-top:48px;
+        border-bottom: 1px solid $gray-150;
+    }
+}

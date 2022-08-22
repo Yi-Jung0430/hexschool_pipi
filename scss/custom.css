@@ -13317,4 +13317,80 @@ header .badge {
   height: 24px;
   width: 24px;
 }
+
+.nav-tabs .nav-link.active {
+  border-color: #fff #fff #FFDF65 #fff;
+  border-bottom: 3px solid #FFDF65;
+  font-weight: bolder;
+}
+
+.nav-tabs .nav-link {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.nav-tabs .nav-link:hover {
+  border-color: #fff;
+}
+
+.nav-tabs {
+  border-bottom: 0 solid #dee2e6;
+}
+
+.main {
+  background-color: #fff;
+}
+
+.tab__bg {
+  background-color: #fff;
+  margin-top: 48px;
+  border-bottom: 1px solid #e8e8db;
+}
+
+.product__text {
+  color: #494846;
+  letter-spacing: 0;
+  text-align: justify;
+  line-height: 32px;
+  margin-top: 5px;
+}
+
+.product__title {
+  border-left: 4px solid #FFDF65;
+  padding-left: 15px;
+}
+
+.product__line {
+  height: 3px;
+  width: 40%;
+  color: #FFDF65;
+  background-color: #FFDF65;
+}
+
+.product__heart {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 4px;
+}
+
+.product__submit {
+  padding: 12px 48px;
+}
+
+.product__submitBox {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.product__label {
+  font-size: 1rem;
+  color: #373a3c;
+}
 /*# sourceMappingURL=custom.css.map */
