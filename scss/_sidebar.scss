@@ -1,0 +1,17 @@
+.brand {
+    &__contact__btn {
+        border-width: 1px;
+        padding: 4px 12px;
+    }
+    &__contact__btn:hover {
+        color: #fff;
+    }
+}
+
+.bi-facebook::before,
+.bi-youtube::before {
+    color: $gray-750;
+    &:hover {
+        color:$secondary;
+    }
+}

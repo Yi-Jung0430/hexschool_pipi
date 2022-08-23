@@ -49,8 +49,8 @@ $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #d63384 !default;
 $red:     #dc3545 !default;
-$orange:  #FF785E;
-$yellow:  #FFDF65;
+$orange:  #FF785E;//custom
+$yellow:  #FFDF65;//custom
 $green:   #198754 !default;
 $teal:    #20c997 !default;
 $cyan:    #0dcaf0 !default;
@@ -75,7 +75,7 @@ $colors: (
 // scss-docs-end colors-map
 
 // scss-docs-start theme-color-variables
-$primary:       $yellow;
+$primary:       #FFDF65;//custom
 $secondary:     $orange ;
 $third:         $gray-650;//custom
 $success:       $green !default;
@@ -84,6 +84,8 @@ $warning:       $blue ;
 $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-900 !default;
+$grayLight:     $gray-250; //custom
+$grayDark:      $gray-750; //custom
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
@@ -96,7 +98,9 @@ $theme-colors: (
   "warning":    $warning,
   "danger":     $danger,
   "light":      $light,
-  "dark":       $dark
+  "dark":       $dark,
+  "grayDark":   $grayDark,
+  "grayLight":  $grayLight
 ) ;
 // scss-docs-end theme-colors-map
 
@@ -864,12 +868,12 @@ $input-padding-y-lg:                    $input-btn-padding-y-lg !default;
 $input-padding-x-lg:                    $input-btn-padding-x-lg !default;
 $input-font-size-lg:                    $input-btn-font-size-lg !default;
 
-$input-bg:                              $body-bg !default;
+$input-bg:                              $gray-450;//custom
 $input-disabled-bg:                     $gray-200 !default;
 $input-disabled-border-color:           null !default;
 
-$input-color:                           $body-color !default;
-$input-border-color:                    $gray-400 !default;
+$input-color:                           $gray-850; //custom
+$input-border-color:                    $gray-450;//custom
 $input-border-width:                    $input-btn-border-width !default;
 $input-box-shadow:                      $box-shadow-inset !default;
 
@@ -971,7 +975,7 @@ $form-select-indicator-padding:     $form-select-padding-x * 3 !default; // Extr
 $form-select-font-weight:           $input-font-weight !default;
 $form-select-line-height:           $input-line-height !default;
 $form-select-color:                 $input-color !default;
-$form-select-bg:                    $input-bg !default;
+$form-select-bg:                    $gray-450;//custom
 $form-select-disabled-color:        null !default;
 $form-select-disabled-bg:           $gray-200 !default;
 $form-select-disabled-border-color: $input-disabled-border-color !default;
@@ -985,7 +989,7 @@ $form-select-feedback-icon-position:    center right $form-select-indicator-padd
 $form-select-feedback-icon-size:        $input-height-inner-half $input-height-inner-half !default;
 
 $form-select-border-width:        $input-border-width !default;
-$form-select-border-color:        $input-border-color !default;
+$form-select-border-color:        $gray-450; //custom
 $form-select-border-radius:       $border-radius !default;
 $form-select-box-shadow:          $box-shadow-inset !default;
 

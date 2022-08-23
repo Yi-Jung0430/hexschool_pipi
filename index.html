@@ -45,7 +45,7 @@
         </div>
       </div>
     </nav>
-    <!-- header -->
+    <!-- header start-->
     <header class="container header">
       <div class="row">
         <div class="col-12 mt-3 mt-lg-5">
@@ -117,33 +117,38 @@
         </div>
       </div>
     </header>
+    <!-- header end -->
+    <!-- main start -->
     <div class="main">
       <div class="tab__bg">
         <div class="container">
           <div class="row">
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
-              <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#product" type="button" role="tab" aria-controls="product" aria-selected="true">專案介紹</button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#question" type="button" role="tab" aria-controls="question" aria-selected="false">常見問答</button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#progress" type="button" role="tab" aria-controls="progress" aria-selected="false">目前進度</button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#message" type="button" role="tab" aria-controls="message" aria-selected="false">留言</button>
-              </li>
-            </ul>
+            <div class="col-12">
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#product" type="button" role="tab" aria-controls="product" aria-selected="true">專案介紹</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#question" type="button" role="tab" aria-controls="question" aria-selected="false">常見問答</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#progress" type="button" role="tab" aria-controls="progress" aria-selected="false">目前進度</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#message" type="button" role="tab" aria-controls="message" aria-selected="false">留言</button>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-      <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="product" role="tabpanel" aria-labelledby="product-tab">
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-8">
-                <img class="w-100 mt-md-5 mt-4" src="./img/p1.jpg" alt="img-product">
+      <div class="container">
+        <div class="row mt-md-5 mt-4">
+          <div class="col-12 col-md-8">
+            <!-- tab#home-tab -->
+            <div class="tab-content" id="home-tab">
+              <div class="tab-pane fade show active" id="product" role="tabpanel" aria-labelledby="product-tab">
+                <img class="w-100" src="./img/p1.jpg" alt="img-product">
                 <h3 class="mt-3 mt-md-4 product__title">
                   施了魔法的照片
                 </h3>
@@ -157,61 +162,90 @@
                 <p class="product__text">
                   受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女，外成認心香吸工並知日成展源大超時動為生葉衣致長山對精做英密差家他微熱建取示濟定心一，品定把別銀動，深青輪一物加，生明果。西業白老如天有表非民大條全那遊，李文遊、像香過元學須本致信校態麼資司媽人價在它，地他不我計孩廠然不大指勢生的華常簡岸然，人著母病石金萬得一果。
                 </p>
-                
-
               </div>
-              <div class="col-12 col-md-4">
-
+            </div>
+            <!-- tab#question -->
+            <div class="tab-pane fade" id="question" role="tabpanel" aria-labelledby="question-tab">2</div>
+            <!-- tab#progress -->
+            <div class="tab-pane fade" id="progress" role="tabpanel" aria-labelledby="progress-tab">3</div>
+            <!-- tab#message -->
+            <div class="tab-pane fade" id="message" role="tabpanel" aria-labelledby="message-tab">4</div>
+            <!-- tab end -->
+          </div>
+          <!-- 右側品牌介紹 start -->
+          <div class="col-12 col-md-4">
+            <div class="brand border border-gray p-3 rounded-3">
+              <img src="./img/store_img.jpg" alt="store_img" class="mr-3 align-middle d-inline-block brand__img border border-3 border-primary rounded-circle">
+              <div class="d-inline-block align-middle">
+                <h4>缺錢事務所</h4>
+                <strong>已發起 1 個專案</strong>
               </div>
-              <div class="col-12 col-md-8">
-                <div class="product__heart">
-                  <img src="./img/icon_heart.svg" alt="" class="mt-md-5">
+              <strong class="d-block mt-3">需要點錢錢做些酷酷的東西，拜託各位乾爹乾媽囉！</strong>
+              <div class="d-flex justify-content-between mt-3">
+                <div>
+                  <a href="#">
+                    <i class="bi bi-facebook brand__icon"></i>
+                  </a>
+                  <a href="#">
+                    <i class="bi bi-youtube brand__icon"></i>
+                  </a>
                 </div>
-                <span class="product__line d-inline-block align-middle"></span>
-                <span class="product__title__secondary h3 align-middle mx-4">贊助專案</span>
-                <span class="product__line d-inline-block align-middle"></span>
-                <form>
-                  <div class="mb-3">
-                    <label for="exampleInput1" class="form-label">贊助方案</label>
-                    <select class="form-select" aria-label="Default select example">
-                      <option selected>請選擇一個方案</option>
-                      <option value="1">One</option>
-                      <option value="2">Two</option>
-                      <option value="3">Three</option>
-                    </select>
-                  </div>
-                  <div class="mb-3">
-                    <label for="userName" class="form-label product__label">收件人姓名</label>
-                    <input type="text" class="form-control" id="userName">
-                  </div>
-                  <div class="mb-3">
-                    <label for="userPhone" class="form-label">連絡電話</label>
-                    <input type="phone" class="form-control" id="userPhone">
-                  </div>
-                  <div class="mb-3">
-                    <label for="userEmail" class="form-label">連絡信箱</label>
-                    <input type="email" class="form-control" id="userEmail">
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleInput2" class="form-label">付款方式</label>
-                    <select class="form-select" aria-label="Default select example">
-                      <option selected>信用卡付款</option>
-                      <option value="1">One</option>
-                      <option value="2">Two</option>
-                      <option value="3">Three</option>
-                    </select>
-                  </div>
-                  <div class="product__submitBox">
-                    <button type="submit" class="btn btn-primary btn-lg product__submit">贊助專案</button>
-                  </div>
-                </form>
+                <div>
+                  <button class="btn btn-outline-grayDark brand__contact__btn">
+                    <i class="bi bi-chat-dots"></i>
+                    <small>聯絡我們</small>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
+          <!-- 右側品牌介紹 end -->
+          <!-- 贊助專案 start -->
+          <div class="col-12 col-md-8">
+            <div class="product__heart">
+              <img src="./img/icon_heart.svg" alt="" class="mt-md-5">
+            </div>
+            <span class="product__line d-inline-block align-middle"></span>
+            <span class="product__title__secondary h3 align-middle mx-4">贊助專案</span>
+            <span class="product__line d-inline-block align-middle"></span>
+            <form>
+              <div class="mb-3">
+                <label for="exampleInput1" class="form-label">贊助方案</label>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>請選擇一個方案</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="userName" class="form-label product__label">收件人姓名</label>
+                <input type="text" class="form-control" id="userName">
+              </div>
+              <div class="mb-3">
+                <label for="userPhone" class="form-label">連絡電話</label>
+                <input type="phone" class="form-control" id="userPhone">
+              </div>
+              <div class="mb-3">
+                <label for="userEmail" class="form-label">連絡信箱</label>
+                <input type="email" class="form-control" id="userEmail">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInput2" class="form-label">付款方式</label>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>信用卡付款</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+              <div class="product__submitBox">
+                <button type="submit" class="btn btn-primary btn-lg product__submit">贊助專案</button>
+              </div>
+            </form>
+          </div>
+          <!-- 贊助專案 end -->
         </div>
-        <div class="tab-pane fade" id="question" role="tabpanel" aria-labelledby="question-tab">2</div>
-        <div class="tab-pane fade" id="progress" role="tabpanel" aria-labelledby="progress-tab">3</div>
-        <div class="tab-pane fade" id="message" role="tabpanel" aria-labelledby="message-tab">4</div>
       </div>
     </div>
     
