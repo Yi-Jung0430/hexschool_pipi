@@ -27,6 +27,10 @@ ul {
     margin-right: ($spacer * 3);
 }
 
+.mr-2 {
+    margin-right: ($spacer * .5);
+}
+
 .mr-3 {
     margin-right: $spacer;
 }
@@ -55,6 +59,14 @@ ul {
     color: $primary;
 }
 
+.badge {
+    &__question {
+        padding: 8px;
+        background-color: $primary;
+        color: $gray-650;
+    }
+}
+
 .scroller {
     overflow-y: scroll;
     scrollbar-width: thin;
@@ -62,4 +74,7 @@ ul {
     background: #F8F9FA;
   }
 
+.text-primary {
+    color: $primary!important;
+}
  

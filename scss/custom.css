@@ -13833,6 +13833,10 @@ ul {
   margin-right: 3rem;
 }
 
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
 .mr-3 {
   margin-right: 1rem;
 }
@@ -13861,11 +13865,21 @@ ul {
   color: #FFDF65;
 }
 
+.badge__question {
+  padding: 8px;
+  background-color: #FFDF65;
+  color: #636057;
+}
+
 .scroller {
   overflow-y: scroll;
   scrollbar-width: thin;
   padding: 8px 16px;
   background: #F8F9FA;
+}
+
+.text-primary {
+  color: #FFDF65 !important;
 }
 
 .btn-primary:hover {
@@ -14050,5 +14064,14 @@ header .badge {
 .product {
   padding: 6px 73px;
   text-align: center;
+}
+
+.accordion-button {
+  border: 1px solid #E5E5E5;
+  border-radius: 4px;
+}
+
+.accordion-item {
+  border: 0 solid rgba(0, 0, 0, 0.125);
 }
 /*# sourceMappingURL=custom.css.map */
