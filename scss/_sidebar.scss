@@ -5,13 +5,32 @@
     }
     &__contact__btn:hover {
         color: #fff;
+        background-color: $secondary;
+        border: 1px solid $secondary;
+    }
+    &__icon {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    &__icon:hover {
+        background-color: $secondary;
+    }
+    &__text {
+        color:$gray-750;
+    }
+    &__time {
+        font-family: NotoSansCJKtc-Regular;
+        font-size: 14px;
+        color: #636057;
+        letter-spacing: 2px;
+    }
+    &__scroll {
+        height: 1200px;
     }
 }
 
-.bi-facebook::before,
-.bi-youtube::before {
-    color: $gray-750;
-    &:hover {
-        color:$secondary;
-    }
+.product {
+    padding: 6px 73px;
+    text-align: center;
 }

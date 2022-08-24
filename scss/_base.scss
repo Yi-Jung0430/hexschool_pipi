@@ -38,3 +38,28 @@ ul {
 .border-primary {
     border-color: #FFDF65 !important;
 }
+
+.text-garyDark {
+    color:#858377;
+}
+
+.bg-grayLight {
+    background-color: #E8E8DB;
+}
+
+.bg-grayDark {
+    background: #494846;
+}
+
+.badge span {
+    color: $primary;
+}
+
+.scroller {
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    padding: 8px 16px;
+    background: #F8F9FA;
+  }
+
+ 

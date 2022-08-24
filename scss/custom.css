@@ -13344,7 +13344,7 @@ progress {
 
 .badge {
   display: inline-block;
-  padding: 0.35em 0.65em;
+  padding: 0.45em 1em;
   font-size: 0.75em;
   font-weight: 700;
   line-height: 1;
@@ -13782,6 +13782,28 @@ textarea.form-control-lg {
   border-radius: 0.25rem;
 }
 
+.badge {
+  display: inline-block;
+  padding: 0.45em 1em;
+  font-size: 0.75em;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+
+.badge:empty {
+  display: none;
+}
+
+.btn .badge {
+  position: relative;
+  top: -1px;
+}
+
 body {
   background: #F8F9FA;
 }
@@ -13821,6 +13843,29 @@ ul {
 
 .border-primary {
   border-color: #FFDF65 !important;
+}
+
+.text-garyDark {
+  color: #858377;
+}
+
+.bg-grayLight {
+  background-color: #E8E8DB;
+}
+
+.bg-grayDark {
+  background: #494846;
+}
+
+.badge span {
+  color: #FFDF65;
+}
+
+.scroller {
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  padding: 8px 16px;
+  background: #F8F9FA;
 }
 
 .btn-primary:hover {
@@ -13973,15 +14018,37 @@ header .badge {
 
 .brand__contact__btn:hover {
   color: #fff;
+  background-color: #FF785E;
+  border: 1px solid #FF785E;
 }
 
-.bi-facebook::before,
-.bi-youtube::before {
+.brand__icon {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.brand__icon:hover {
+  background-color: #FF785E;
+}
+
+.brand__text {
   color: #858377;
 }
 
-.bi-facebook::before:hover,
-.bi-youtube::before:hover {
-  color: #FF785E;
+.brand__time {
+  font-family: NotoSansCJKtc-Regular;
+  font-size: 14px;
+  color: #636057;
+  letter-spacing: 2px;
+}
+
+.brand__scroll {
+  height: 1200px;
+}
+
+.product {
+  padding: 6px 73px;
+  text-align: center;
 }
 /*# sourceMappingURL=custom.css.map */

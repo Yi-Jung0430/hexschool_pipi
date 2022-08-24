@@ -75,7 +75,7 @@ $colors: (
 // scss-docs-end colors-map
 
 // scss-docs-start theme-color-variables
-$primary:       #FFDF65;//custom
+$primary:       #FFDF65 ;//custom
 $secondary:     $orange ;
 $third:         $gray-650;//custom
 $success:       $green !default;
@@ -1408,8 +1408,8 @@ $toast-header-border-color:         rgba(0, 0, 0, .05) !default;
 $badge-font-size:                   .75em !default;
 $badge-font-weight:                 $font-weight-bold !default;
 $badge-color:                       $white !default;
-$badge-padding-y:                   .35em !default;
-$badge-padding-x:                   .65em !default;
+$badge-padding-y:                   .45em ;//custom
+$badge-padding-x:                   1em ;//custom
 $badge-border-radius:               $border-radius !default;
 // scss-docs-end badge-variables
 
