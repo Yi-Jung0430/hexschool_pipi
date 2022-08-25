@@ -13816,6 +13816,10 @@ ul {
   margin-top: 0;
 }
 
+.mt-4 {
+  margin-top: 2rem;
+}
+
 .ms-1 {
   margin-left: 0.25rem;
 }
@@ -14072,6 +14076,54 @@ header .badge {
 }
 
 .accordion-item {
-  border: 0 solid rgba(0, 0, 0, 0.125);
+  border: 1 solid rgba(0, 0, 0, 0.125);
+}
+
+.accordion-button:focus {
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(255, 223, 101, 0.25);
+          box-shadow: 0 0 0 0.25rem rgba(255, 223, 101, 0.25);
+  border-color: rgba(255, 223, 101, 0.25);
+}
+
+.accordion-button:not(.collapsed) {
+  color: #494846;
+  background-color: rgba(255, 223, 101, 0);
+}
+
+.accordion-button:not(.collapsed) .accordion-item {
+  border-color: rgba(255, 223, 101, 0.25);
+}
+
+.passwordHelp a {
+  text-decoration: none;
+  color: #636057;
+}
+
+.passwordHelp a:hover {
+  -webkit-text-decoration: dashed;
+          text-decoration: dashed;
+  color: #FF785E;
+}
+
+.modal__border {
+  width: 100%;
+  height: 1px;
+  background-color: #eeeeee;
+}
+
+.modal__noAccount {
+  width: 200px;
+  font-size: 14px;
+  color: #858377;
+}
+
+.modal__noAccount a {
+  color: #FF785E;
+  text-decoration: none;
+}
+
+.modal__noAccount a:hover {
+  color: #f72800;
+  text-decoration: none;
 }
 /*# sourceMappingURL=custom.css.map */

@@ -560,7 +560,7 @@ $box-shadow-cu:               0 0 8px 0 rgba(#494846, .15) !default; //custom
 // scss-docs-end box-shadow-variables
 
 $component-active-color:      $white !default;
-$component-active-bg:         $primary !default;
+$component-active-bg:         #ffdf65; //custom
 
 // scss-docs-start caret-variables
 $caret-width:                 .3em !default;
@@ -1505,7 +1505,7 @@ $list-group-item-bg-scale:          -80% !default;
 $list-group-item-color-scale:       40% !default;
 
 $list-group-hover-bg:               $gray-100 !default;
-$list-group-active-color:           $component-active-color !default;
+$list-group-active-color:           $list-group-active-color !default;
 $list-group-active-bg:              $component-active-bg !default;
 $list-group-active-border-color:    $list-group-active-bg !default;
 

@@ -1,0 +1,33 @@
+.passwordHelp a{
+    text-decoration: none;
+    color: $gray-650;
+
+    &:hover {
+        text-decoration: dashed;
+        color: $secondary;
+    }
+}
+
+
+.modal {
+    &__border {
+        width: 100%;
+        height: 1px;
+        background-color: $gray-450;
+    }
+    &__noAccount {
+        width: 200px;
+        font-size: 14px;
+        color: $gray-750;
+
+        a {
+            color:$secondary;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: darken($secondary, 20%);
+            text-decoration: none;
+        }
+    }
+}
