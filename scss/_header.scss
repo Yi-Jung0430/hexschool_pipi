@@ -8,6 +8,9 @@ header .badge {
         font-size: 14px;
         padding-left: 0;
         font-weight: 500;
+        span {
+            color: $gray-650;
+        }
     }
     &__price {
         line-height: 56px;
@@ -16,6 +19,13 @@ header .badge {
     &__icon {
         height: 24px;
         width: 24px;
+    }
+    &__number {
+        font-size: 2rem;
+        line-height: 1;
+        span {
+            font-size: 2.5rem;
+        }
     }
 }
 

@@ -12825,7 +12825,7 @@ fieldset:disabled .btn {
 
 .btn-link {
   font-weight: 600;
-  color: #0d6efd;
+  color: #636057;
   text-decoration: underline;
 }
 
@@ -13806,6 +13806,7 @@ textarea.form-control-lg {
 
 body {
   background: #F8F9FA;
+  color: #494846;
 }
 
 ul {
@@ -13886,6 +13887,16 @@ ul {
   color: #FFDF65 !important;
 }
 
+.number-family {
+  font-family: 'Baloo Tamma 2', cursive;
+  font-weight: bold;
+  color: #494846;
+}
+
+.btn {
+  color: #636057;
+}
+
 .btn-primary:hover {
   color: white;
   background-color: #FF785E;
@@ -13932,6 +13943,12 @@ nav {
   }
 }
 
+.navbar__login {
+  font-family: NotoSansCJKtc-Bold;
+  font-size: 16px;
+  color: #636057;
+}
+
 header .badge {
   background-color: #858377;
 }
@@ -13943,6 +13960,10 @@ header .badge {
   font-weight: 500;
 }
 
+.header__goal span {
+  color: #636057;
+}
+
 .header__price {
   line-height: 56px;
   font-weight: 800;
@@ -13951,6 +13972,15 @@ header .badge {
 .header__icon {
   height: 24px;
   width: 24px;
+}
+
+.header__number {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.header__number span {
+  font-size: 2.5rem;
 }
 
 .nav-tabs .nav-link.active {
@@ -14055,7 +14085,6 @@ header .badge {
 }
 
 .brand__time {
-  font-family: NotoSansCJKtc-Regular;
   font-size: 14px;
   color: #636057;
   letter-spacing: 2px;
@@ -14125,5 +14154,18 @@ header .badge {
 .modal__noAccount a:hover {
   color: #f72800;
   text-decoration: none;
+}
+
+.badge __text {
+  font-weight: Regular;
+  font-size: 16px;
+  color: #636057;
+}
+
+.main__title {
+  font-weight: Bold;
+  font-size: 32px;
+  color: #494846;
+  letter-spacing: 3px;
 }
 /*# sourceMappingURL=custom.css.map */

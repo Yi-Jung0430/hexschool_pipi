@@ -1,5 +1,6 @@
 body {
     background: #F8F9FA;
+    color: $gray-850;
 }
 
 ul {
@@ -82,3 +83,12 @@ ul {
     color: $primary!important;
 }
  
+.number-family {
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: bold;
+    color: $gray-850;
+}
+
+.btn {
+    color: $gray-650;
+}
