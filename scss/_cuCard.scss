@@ -1,0 +1,21 @@
+.progress {
+   &__title {
+    margin-bottom: 0;
+   }
+   &__text {
+    color:$gray-750;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    line-height: 1.5rem;
+   }
+   &__more {
+    letter-spacing: 0.7px;
+    color: $secondary;
+    text-decoration: none;
+    transition: all 0.3s;
+    &:hover {
+        color: darken($secondary, 20%);
+    }
+   }
+
+}

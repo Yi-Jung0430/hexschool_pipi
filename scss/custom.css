@@ -13897,6 +13897,37 @@ ul {
   color: #636057;
 }
 
+.nav-tabs .nav-link {
+  letter-spacing: 2px;
+}
+
+.toast-body a {
+  text-decoration: none;
+  color: #FF785E;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.toast-body a:hover {
+  color: #c42000;
+}
+
+.password {
+  cursor: pointer;
+}
+
+.password:hover {
+  color: #FF785E;
+}
+
+.icon__copy {
+  cursor: pointer;
+}
+
+.icon__copy:hover {
+  color: #FF785E;
+}
+
 .btn-primary:hover {
   color: white;
   background-color: #FF785E;
@@ -13927,6 +13958,10 @@ ul {
 .nav-link {
   color: #636057;
   font-weight: 600;
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: #FF785E;
 }
 
 nav {
@@ -13983,6 +14018,20 @@ header .badge {
   font-size: 2.5rem;
 }
 
+.header__secBtn {
+  color: #858377;
+}
+
+.header__secBtn:hover {
+  background-color: #FFDF65;
+  border-color: #FFDF65;
+  color: #858377;
+}
+
+.header__secBtn:hover i {
+  color: #FF785E;
+}
+
 .nav-tabs .nav-link.active {
   border-color: #fff #fff #FFDF65 #fff;
   border-bottom: 3px solid #FFDF65;
@@ -14020,6 +14069,7 @@ header .badge {
   text-align: justify;
   line-height: 32px;
   margin-top: 5px;
+  font-weight: 600;
 }
 
 .product__title {
@@ -14032,6 +14082,7 @@ header .badge {
   width: 40%;
   color: #FFDF65;
   background-color: #FFDF65;
+  line-height: 35px;
 }
 
 .product__heart {
@@ -14059,6 +14110,11 @@ header .badge {
   color: #373a3c;
 }
 
+.product__title__secondary {
+  width: 200px;
+  text-align: center;
+}
+
 .brand__contact__btn {
   border-width: 1px;
   padding: 4px 12px;
@@ -14082,6 +14138,7 @@ header .badge {
 
 .brand__text {
   color: #858377;
+  font-weight: 600;
 }
 
 .brand__time {
@@ -14099,9 +14156,36 @@ header .badge {
   text-align: center;
 }
 
+.product__time {
+  font-size: 14px;
+  color: #636057;
+  font-weight: 600;
+}
+
+.product__small {
+  font-size: 14px;
+  color: #636057;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
 .accordion-button {
   border: 1px solid #E5E5E5;
   border-radius: 4px;
+}
+
+.accordion-button span {
+  font-size: 14px;
+  color: #494846;
+  letter-spacing: 0.7px;
+  font-weight: 600;
+}
+
+.accordion-button span.badge__question {
+  font-size: 14px;
+  color: #494846;
+  letter-spacing: 0.7px;
+  font-weight: 600;
 }
 
 .accordion-item {
@@ -14121,6 +14205,15 @@ header .badge {
 
 .accordion-button:not(.collapsed) .accordion-item {
   border-color: rgba(255, 223, 101, 0.25);
+}
+
+.accordion-body {
+  font-size: 14px;
+  color: #858377;
+  letter-spacing: 0.7px;
+  font-weight: 600;
+  padding-left: 60px;
+  line-height: 2;
 }
 
 .passwordHelp a {
@@ -14156,10 +14249,71 @@ header .badge {
   text-decoration: none;
 }
 
-.badge __text {
-  font-weight: Regular;
+.badge__text {
   font-size: 16px;
   color: #636057;
+  font-weight: 600;
+}
+
+.progress__title {
+  margin-bottom: 0;
+}
+
+.progress__text {
+  color: #858377;
+  font-size: 14px;
+  letter-spacing: 0.7px;
+  line-height: 1.5rem;
+}
+
+.progress__more {
+  letter-spacing: 0.7px;
+  color: #FF785E;
+  text-decoration: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.progress__more:hover {
+  color: #f72800;
+}
+
+.message__alert {
+  font-size: 14px;
+  color: #494846;
+  letter-spacing: 0.7px;
+}
+
+.message__alert a {
+  text-decoration: none;
+  color: #FF785E;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.message__alert a:hover {
+  color: #f72800;
+}
+
+.message__card__title {
+  margin-bottom: 0;
+}
+
+.message__card__small {
+  letter-spacing: 2px;
+}
+
+.message__card__text {
+  color: #373a3c;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+}
+
+.message__card__respont {
+  color: #FF785E;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  font-size: 14px;
 }
 
 .main__title {
@@ -14167,5 +14321,23 @@ header .badge {
   font-size: 32px;
   color: #494846;
   letter-spacing: 3px;
+}
+
+.cuForm__label {
+  font-weight: 600;
+}
+
+.form-select,
+.form-control {
+  color: #373a3c;
+  font-weight: 600;
+  padding: 12px;
+}
+
+.form-select:focus,
+.form-control:focus {
+  border-color: white;
+  -webkit-box-shadow: 0 0 0 0.25rem #ffdf65;
+          box-shadow: 0 0 0 0.25rem #ffdf65;
 }
 /*# sourceMappingURL=custom.css.map */

@@ -4,7 +4,8 @@
     letter-spacing: 0;
     text-align: justify;
     line-height: 32px;
-		margin-top: 5px;
+	margin-top: 5px;
+	font-weight: 600;
   }
 	&__title {
 		border-left: 4px solid $primary;
@@ -15,6 +16,7 @@
 		width: 40%;
 		color: $primary;
 		background-color: $primary;
+		line-height: 35px;
 	}
 	&__heart {
 		width: 100%;
@@ -32,6 +34,10 @@
 	&__label {
 		font-size: 1rem;
 		color:$gray-550;
+	}
+	&__title__secondary {
+		width: 200px;
+		text-align: center;
 	}
 	
 }

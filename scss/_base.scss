@@ -92,3 +92,33 @@ ul {
 .btn {
     color: $gray-650;
 }
+
+.nav-tabs .nav-link {
+    letter-spacing: 2px;
+}
+
+.toast-body a {
+    text-decoration: none;
+    color: $secondary;
+    transition: all .3s;
+}
+
+.toast-body a:hover {
+    color: darken($secondary, 30%);
+}
+
+.password {
+    cursor: pointer;
+}
+.password:hover {
+    color: $secondary;
+}
+
+.icon {
+    &__copy {
+        cursor: pointer;
+        &:hover {
+            color: $secondary;
+        }
+    }
+}

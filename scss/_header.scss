@@ -27,5 +27,16 @@ header .badge {
             font-size: 2.5rem;
         }
     }
+    &__secBtn {
+        color: $gray-750;
+        &:hover {
+            background-color: $primary;
+            border-color: $primary;
+            color: $gray-750;
+            i {
+                color: $secondary;
+            }
+        }
+    }
 }
 
