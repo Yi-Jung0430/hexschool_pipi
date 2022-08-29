@@ -63,13 +63,13 @@
             <form>
               <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">帳號</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@google.com">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@google.com" required>
               </div>
               <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label">密碼
                 </label>
                 <div class="position-relative">
-                  <input type="password" class="form-control" id="exampleInputPassword1">
+                  <input type="password" class="form-control" id="exampleInputPassword1" required>
                   <i class="bi bi-eye-slash-fill position-absolute top-50 end-0 translate-middle-y mr-3  password"></i>
                 </div>
                 <div id="passwordHelp" class="form-text passwordHelp"><a href="#">忘記密碼?</a></div>
@@ -102,12 +102,12 @@
             <form>
               <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">信箱</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@google.com">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@google.com" required>
               </div>
               <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label">密碼</label>
                 <div class="position-relative">
-                  <input type="password" class="form-control" id="exampleInputPassword1">
+                  <input type="password" class="form-control" id="exampleInputPassword1" required>
                   <i class="bi bi-eye-slash-fill position-absolute top-50 end-0 translate-middle-y mr-3  password"></i>
                 </div>
               </div>
@@ -192,18 +192,26 @@
               <p class=" header__number"><span class="number-family">27</span> 天</p>
             </div>
             <ul class="col-12 d-flex justify-content-start pl-0 ml-0">
-              <li class="header__icon mr-3">
-                <img src="./img/icon_good01.svg" alt="icon_good01" />
-              </li>
-              <li class="header__icon mr-3">
-                <img src="./img/icon_good02.svg" alt="icon_good02" />
-              </li>
-              <li class="header__icon mr-3">
-                <img src="./img/icon_good03.svg" alt="icon_good03" />
-              </li>
-              <li class="header__icon">
-                <img src="./img/icon_good04.svg" alt="icon_good04" />
-              </li>
+              <button type="button" class="border-0 bg-transparent me-2" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="優質品牌">
+                <li class="header__icon">
+                  <img src="./img/icon_good01.svg" alt="icon_good01" />
+                </li>
+              </button>
+              <button type="button" class="border-0 bg-transparent me-2" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="品質保證">
+                <li class="header__icon">
+                  <img src="./img/icon_good02.svg" alt="icon_good02" />
+                </li>
+              </button>
+              <button type="button" class="border-0 bg-transparent me-2" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="獨家點子">
+                <li class="header__icon">
+                  <img src="./img/icon_good03.svg" alt="icon_good03" />
+                </li>
+              </button>
+              <button type="button" class="border-0 bg-transparent" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="募資新星">
+                <li class="header__icon">
+                  <img src="./img/icon_good04.svg" alt="icon_good04" />
+                </li>
+              </button>
             </ul>
             <div class="col-12">
               <div class="bd-callout badge__text">
@@ -504,31 +512,39 @@
                 <span class="product__title__secondary h3 mx-4 align-middle">贊助專案</span>
                 <span class="product__line d-inline-block"></span>
               </div>
-              <form>
+              <form class="needs-validation" novalidate>
                 <div class="mt-4 mb-4">
                   <label for="exampleInput1" class="form-label cuForm__label">贊助方案</label>
-                  <select class="form-select" aria-label="Default select example">
-                    <option selected>請選擇一個方案</option>
+                  <select class="form-select" aria-label="Default select example" required>
                     <option value="1">One</option>
                     <option value="2">Two</option>
                     <option value="3">Three</option>
                   </select>
                 </div>
-                <div class="mb-4">
+                <div class="mb-4 has-validation">
                   <label for="userName" class="form-label product__label cuForm__label">收件人姓名</label>
-                  <input type="text" class="form-control" id="userName">
+                  <input type="text" class="form-control" id="userName" required>
+                  <div class="invalid-feedback">
+                    請輸入收件人姓名
+                  </div>
                 </div>
                 <div class="mb-4">
                   <label for="userPhone" class="form-label cuForm__label">連絡電話</label>
-                  <input type="phone" class="form-control" id="userPhone">
+                  <input type="phone" class="form-control" id="userPhone" required>
+                  <div class="invalid-feedback">
+                    請輸入收件人姓名
+                  </div>
                 </div>
                 <div class="mb-4">
                   <label for="userEmail" class="form-label cuForm__label">連絡信箱</label>
-                  <input type="email" class="form-control" id="userEmail">
+                  <input type="email" class="form-control" id="userEmail" required>
+                  <div class="invalid-feedback">
+                    請輸入聯絡信箱
+                  </div>
                 </div>
                 <div class="mb-4">
                   <label for="exampleInput2" class="form-label cuForm__label">付款方式</label>
-                  <select class="form-select" aria-label="Default select example">
+                  <select class="form-select" aria-label="Default select example" required>
                     <option selected>信用卡付款</option>
                     <option value="1">One</option>
                     <option value="2">Two</option>
@@ -653,6 +669,32 @@
           toast.show()
         })
       }
+
+      var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+      var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        trigger: 'click';
+        return new bootstrap.Popover(popoverTriggerEl);
+        
+      })
+
+     
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.querySelectorAll('.needs-validation')
+
+        // Loop over them and prevent submission
+        Array.prototype.slice.call(forms)
+          .forEach(function (form) {
+            form.addEventListener('submit', function (event) {
+              if (!form.checkValidity()) {
+                event.preventDefault()
+                event.stopPropagation()
+              }
+
+              form.classList.add('was-validated')
+            }, false)
+          });
+      
     </script>
   
   </body>
