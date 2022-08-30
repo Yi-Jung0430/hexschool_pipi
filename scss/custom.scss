@@ -2,7 +2,7 @@
 @import "node_modules/bootstrap/scss/bootstrap";
 
 // custom
-@import "./variables";
+@import "node_modules/custom/variables";
 @import "node_modules/bootstrap/scss/buttons";
 @import "node_modules/bootstrap/scss/reboot";
 @import "node_modules/bootstrap/scss/progress";
@@ -13,19 +13,20 @@
 @import "node_modules/bootstrap/scss/mixins/border-radius";
 @import "node_modules/bootstrap/scss/utilities";
 @import "node_modules/bootstrap/scss/badge";
-@import "./base";
-@import "./components";
-@import "./nav";
-@import "./header";
-@import "./tabs";
-@import "./productTabs";
-@import "./sidebar";
-@import "./accordion";
-@import "./cuModal";
-@import "./cuBadge";
-@import "./cuCard";
-@import "./cuMessage";
-@import "./cuPopover";
-@import "./main";
-@import "./form";
+
+@import "node_modules/custom/base";
+@import "node_modules/custom/components";
+@import "node_modules/custom/nav";
+@import "node_modules/custom/header";
+@import "node_modules/custom/tabs";
+@import "node_modules/custom/productTabs";
+@import "node_modules/custom/sidebar";
+@import "node_modules/custom/accordion";
+@import "node_modules/custom/cuModal";
+@import "node_modules/custom/cuBadge";
+@import "node_modules/custom/cuCard";
+@import "node_modules/custom/cuMessage";
+@import "node_modules/custom/cuPopover";
+@import "node_modules/custom/main";
+@import "node_modules/custom/form";
 
