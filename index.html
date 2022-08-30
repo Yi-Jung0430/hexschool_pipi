@@ -56,7 +56,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content border-top border-primary border-3 border-bottom-0 border-end-0 border-start-0">
           <div class="modal-header">
-            <h5 class="modal-title h4 fw-bold" id="exampleModalLabel">登入</h5>
+            <p class="modal-title h4 fw-bold" id="exampleModalLabel">登入</p>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
@@ -95,19 +95,19 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content border-top border-primary border-3 border-bottom-0 border-end-0 border-start-0">
           <div class="modal-header">
-            <h5 class="modal-title h4 fw-bold" id="exampleModalLabel">註冊</h5>
+            <p class="modal-title h4 fw-bold" id="exampleModalLabel">註冊</p>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
             <form>
               <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">信箱</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@google.com" required>
+                <label for="exampleInputEmail2" class="form-label">信箱</label>
+                <input type="email" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp" placeholder="example@google.com" required>
               </div>
               <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">密碼</label>
+                <label for="exampleInputPassword2" class="form-label">密碼</label>
                 <div class="position-relative">
-                  <input type="password" class="form-control" id="exampleInputPassword1" required>
+                  <input type="password" class="form-control" id="exampleInputPassword2" required>
                   <i class="bi bi-eye-slash-fill position-absolute top-50 end-0 translate-middle-y mr-3  password"></i>
                 </div>
               </div>
@@ -136,11 +136,11 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <h5 class="modal-title">複製以下連結即可分享給您的朋友!</h5>
+            <p class="h5 modal-title">複製以下連結即可分享給您的朋友!</p>
             <p class="text-center">https://example.com.tw<i class="bi bi-clipboard ms-3 icon__copy"></i></p>
           </div>
           <div class="modal-footer justify-content-center">
-            <h5 class="modal-title d-block w-100">或是透過以下方式:</h5>
+            <p class="h5 modal-title d-block w-100">或是透過以下方式:</p>
             <button type="button" class="btn btn-outline-primary">
               <i class="bi bi-messenger"></i>
               Facebook 分享
@@ -164,10 +164,10 @@
             <p class="d-sm-inline">LivePhotos 魔法拍立得</p>
           </h2>
         </div>
-        <div class="col-12 col-md-7 mt-1 mt-md-4">
+        <div class="col-md-7 mt-1 mt-md-4">
           <img src="./img/produt_image.jpg" alt="produt_image" class="w-100" />
         </div>
-        <div class="col-12 col-md-5 mt-4">
+        <div class="col-md-5 mt-4">
           <span class="badge bg-transparent header__goal">目標 <span class="number-family">$600,000</span></span>
           <p class="h2 header__price number-family">$280,047</p>
           <div class="progress">
@@ -183,45 +183,49 @@
             </div>
           </div>
           <div class="row mt-4">
-            <div class="col-6">
-              <span class="badge bg-transparent header__goal">贊助人數</span>
-              <p class=" header__number"><span class="number-family">1374</span> 人</p>
-            </div>
-            <div class="col-6">
-              <span class="badge bg-transparent header__goal">募資倒數</span>
-              <p class=" header__number"><span class="number-family">27</span> 天</p>
-            </div>
-            <ul class="col-12 d-flex justify-content-start pl-0 ml-0">
-              <button type="button" class="border-0 bg-transparent me-2" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="優質品牌">
-                <li class="header__icon">
-                  <img src="./img/icon_good01.svg" alt="icon_good01" />
-                </li>
-              </button>
-              <button type="button" class="border-0 bg-transparent me-2" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="品質保證">
-                <li class="header__icon">
-                  <img src="./img/icon_good02.svg" alt="icon_good02" />
-                </li>
-              </button>
-              <button type="button" class="border-0 bg-transparent me-2" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="獨家點子">
-                <li class="header__icon">
-                  <img src="./img/icon_good03.svg" alt="icon_good03" />
-                </li>
-              </button>
-              <button type="button" class="border-0 bg-transparent" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="募資新星">
-                <li class="header__icon">
-                  <img src="./img/icon_good04.svg" alt="icon_good04" />
-                </li>
-              </button>
+            <ul class="col-6">
+              <li>
+                <span class="badge bg-transparent header__goal">贊助人數</span>
+                <p class=" header__number"><span class="number-family">1374</span> 人</p>
+              </li>
             </ul>
-            <div class="col-12">
+            <ul class="col-6">
+              <li>
+                <span class="badge bg-transparent header__goal">募資倒數</span>
+                <p class=" header__number"><span class="number-family">27</span> 天</p>
+              </li>
+            </ul>
+            <ul class="d-flex justify-content-start pl-0 ml-0">
+              <li class="header__icon me-3">
+                <button type="button" class="border-0 bg-transparent" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="優質品牌">
+                  <img src="./img/icon_good01.svg" alt="icon_good01" />
+                </button>
+              </li>
+              <li class="header__icon me-3">
+                <button type="button" class="border-0 bg-transparent" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="品質保證">
+                  <img src="./img/icon_good02.svg" alt="icon_good02" />
+                </button>
+              </li>
+              <li class="header__icon me-3">
+                <button type="button" class="border-0 bg-transparent" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="獨家點子">
+                  <img src="./img/icon_good03.svg" alt="icon_good03" />
+                </button>
+              </li>
+              <li class="header__icon">
+                <button type="button" class="border-0 bg-transparent" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="募資新星">
+                  <img src="./img/icon_good04.svg" alt="icon_good04" />               
+                </button>
+              </li>
+            </ul>
+            <div class="">
               <div class="bd-callout badge__text">
                 專案募資中！<br>在<span class="number-family"> 2021/06/14 23:59 </span>募資結束前，您都可以贊助我們！
               </div>
             </div>
-            <div class="col-12">
+            <div class="">
               <button type="button" class="btn btn-primary btn-lg w-100 mt-4">贊助專案</button>
             </div>
-            <div class="col-12 d-flex mt-3"> 
+            <div class="d-flex mt-3"> 
               <button type="button" class="btn btn-outline-third btn-lg w-50 mr-1 header__secBtn" id="liveToastBtn">
                 <i class="bi bi-heart-fill mr-1"></i>追蹤專案
               </button>
@@ -255,28 +259,26 @@
       <div class="tab__bg">
         <div class="container">
           <div class="row">
-            <div class="col-12">
-              <ul class="nav nav-tabs" id="myTab" role="tablist">
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#product" type="button" role="tab" aria-controls="product" aria-selected="true">專案介紹</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#question" type="button" role="tab" aria-controls="question" aria-selected="false">常見問答</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#progress" type="button" role="tab" aria-controls="progress" aria-selected="false">目前進度</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#message" type="button" role="tab" aria-controls="message" aria-selected="false">留言</button>
-                </li>
-              </ul>
-            </div>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#product" type="button" role="tab" aria-controls="product" aria-selected="true">專案介紹</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#question" type="button" role="tab" aria-controls="question" aria-selected="false">常見問答</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#progress" type="button" role="tab" aria-controls="progress" aria-selected="false">目前進度</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#message" type="button" role="tab" aria-controls="message" aria-selected="false">留言</button>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
       <div class="container">
         <div class="row mt-md-5 mt-4 gx-5">
-          <div class="col-12 col-md-8">
+          <div class="col-md-8">
             <!-- tab#home-tab -->
             <div class="tab-content" id="home-tab">
               <!-- tab#product -->
@@ -302,86 +304,86 @@
                 <div class="accordion" id="accordionExample">
                   <!-- q1 -->
                   <div class="accordion-item rounded-3">
-                    <h2 class="accordion-header" id="headingOne">
+                    <div class="accordion-header" id="headingOne">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                         <span class="badge badge__question mr-2">Q1</span>
-                        <span class="">影片拍完之後可以編輯嗎？</span>
+                        <span class="h2">影片拍完之後可以編輯嗎？</span>
                       </button>
-                    </h2>
+                    </div>
                     <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
+                      <p class="accordion-body">
                         可以進行簡易的編輯，內建 5 種濾鏡，影片秒數有3秒、5秒、10秒可以選擇，拍完的當下可以編輯要印出來的影片範圍哦！
-                      </div>
+                      </p>
                     </div>
                   </div>
                   <!-- q2 -->
                   <div class="accordion-item mt-3 rounded-3">
-                    <h2 class="accordion-header" id="headingTwo">
+                    <div class="accordion-header" id="headingTwo">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         <span class="badge badge__question mr-2">Q2</span>
-                        <span class="">有提供保固或維修服務嗎？</span>
+                        <span class="h2">有提供保固或維修服務嗎？</span>
                       </button>
-                    </h2>
+                    </div>
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
+                      <p class="accordion-body">
                         可以進行簡易的編輯，內建 5 種濾鏡，影片秒數有3秒、5秒、10秒可以選擇，拍完的當下可以編輯要印出來的影片範圍哦！
-                      </div>
+                      </p>
                     </div>
                   </div>
                   <!-- q3 -->
                   <div class="accordion-item mt-3 rounded-3">
-                    <h2 class="accordion-header" id="headingThree">
+                    <div class="accordion-header" id="headingThree">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         <span class="badge badge__question mr-2">Q3</span>
-                        <span class="">補充包底片要去哪裡購買呢？</span>
+                        <span class="h2">補充包底片要去哪裡購買呢？</span>
                       </button>
-                    </h2>
+                    </div>
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
+                      <p class="accordion-body">
                         可以進行簡易的編輯，內建 5 種濾鏡，影片秒數有3秒、5秒、10秒可以選擇，拍完的當下可以編輯要印出來的影片範圍哦！
-                      </div>
+                      </p>
                     </div>
                   </div>
                   <!-- q4 -->
                   <div class="accordion-item mt-3 rounded-3">
-                    <h2 class="accordion-header" id="headingFour">
+                    <div class="accordion-header" id="headingFour">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                         <span class="badge badge__question mr-2">Q4</span>
-                        <span class="">印出來的拍立得照片需要充電嗎？</span>
+                        <span class="h2">印出來的拍立得照片需要充電嗎？</span>
                       </button>
-                    </h2>
+                    </div>
                     <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
+                      <p class="accordion-body">
                         可以進行簡易的編輯，內建 5 種濾鏡，影片秒數有3秒、5秒、10秒可以選擇，拍完的當下可以編輯要印出來的影片範圍哦！
-                      </div>
+                      </p>
                     </div>
                   </div>
                   <!-- q5 -->
                   <div class="accordion-item mt-3 rounded-3">
-                    <h2 class="accordion-header" id="headingFive">
+                    <div class="accordion-header" id="headingFive">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                         <span class="badge badge__question mr-2">Q5</span>
-                        <span class="">運送方式及付款方式有哪些呢？</span>
+                        <span class="h2">運送方式及付款方式有哪些呢？</span>
                       </button>
-                    </h2>
+                    </div>
                     <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
+                      <p class="accordion-body">
                         可以進行簡易的編輯，內建 5 種濾鏡，影片秒數有3秒、5秒、10秒可以選擇，拍完的當下可以編輯要印出來的影片範圍哦！
-                      </div>
+                      </p>
                     </div>
                   </div>
                   <!-- q6 -->
                   <div class="accordion-item mt-3 rounded-3">
-                    <h2 class="accordion-header" id="headingSix">
+                    <div class="accordion-header" id="headingSix">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                         <span class="badge badge__question mr-2">Q6</span>
-                        <span class="">退換貨方式及規則</span>
+                        <span class="h2">退換貨方式及規則</span>
                       </button>
-                    </h2>
+                    </div>
                     <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
+                      <p class="accordion-body">
                         可以進行簡易的編輯，內建 5 種濾鏡，影片秒數有3秒、5秒、10秒可以選擇，拍完的當下可以編輯要印出來的影片範圍哦！
-                      </div>
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -515,7 +517,7 @@
               <form class="needs-validation" novalidate>
                 <div class="mt-4 mb-4">
                   <label for="exampleInput1" class="form-label cuForm__label">贊助方案</label>
-                  <select class="form-select" aria-label="Default select example" required>
+                  <select id="exampleInput1" class="form-select" aria-label="Default select example" required>
                     <option value="1">One</option>
                     <option value="2">Two</option>
                     <option value="3">Three</option>
@@ -544,7 +546,7 @@
                 </div>
                 <div class="mb-4">
                   <label for="exampleInput2" class="form-label cuForm__label">付款方式</label>
-                  <select class="form-select" aria-label="Default select example" required>
+                  <select id="exampleInput2" class="form-select" aria-label="Default select example" required>
                     <option selected>信用卡付款</option>
                     <option value="1">One</option>
                     <option value="2">Two</option>
@@ -559,7 +561,7 @@
             <!-- 贊助方案 end -->
           </div>
           <!-- 右側 start -->
-          <div class="col-12 col-md-4">
+          <div class="col-md-4">
             <!-- 品牌介紹 -->
             <div class="brand border border-gray p-3 rounded-3">
               <img src="./img/store_img.jpg" alt="store_img" class="mr-3 align-middle d-inline-block brand__img border border-3 border-primary rounded-circle">
@@ -586,9 +588,9 @@
               </div>
             </div>
             <!-- 選擇專案 -->
-            <h5 class="product bg-light mt-4 border-end border-start border-primary border-4 rounded-2 fw-bold">
+            <p class=" h5 product bg-light mt-4 border-end border-start border-primary border-4 rounded-2 fw-bold">
               選擇一個專案來支持
-            </h5>
+            </p>
             <div class="mt-4">
               <!-- 方案一 -->
               <div class="card rounded-3">
@@ -598,7 +600,7 @@
                     <span class="product__small">限時優惠</span>
                     <span class="product__time">2 days 20:05:20</span>
                   </p>
-                  <h5 class="card-title fw-bold">買一送一，只有兩百組別錯過</h5>
+                  <p class=" h5 card-title fw-bold">買一送一，只有兩百組別錯過</p>
                   <p class="h5 fw-bold">NT$ 1600</p>
                   <span class="badge bg-grayLight text-garyDark mr-1">已被贊助88次</span>
                   <span class="badge bg-secondary">限量<span>200</span>個</span>
@@ -614,7 +616,7 @@
                     <span class="product__small">限時優惠</span>
                     <span class="product__time">2 days 20:05:20</span>
                   </p>
-                  <h5 class="card-title fw-bold">買一送一，只有兩百組別錯過</h5>
+                  <p class="h5 card-title fw-bold">買一送一，只有兩百組別錯過</p>
                   <p class="h5 fw-bold">NT$ 1600</p>
                   <span class="badge bg-grayLight text-garyDark mr-1">已被贊助88次</span>
                   <span class="badge bg-secondary">限量<span>200</span>個</span>
@@ -630,7 +632,7 @@
                     <span class="product__small">限時優惠</span>
                     <span class="product__time">2 days 20:05:20</span>
                   </p>
-                  <h5 class="card-title fw-bold">買一送一，只有兩百組別錯過</h5>
+                  <p class="h5 card-title fw-bold">買一送一，只有兩百組別錯過</p>
                   <p class="h5 fw-bold">NT$ 1600</p>
                   <span class="badge bg-grayLight text-garyDark mr-1">已被贊助88次</span>
                   <span class="badge bg-secondary">限量<span>200</span>個</span>
@@ -646,15 +648,22 @@
     </div>
     <!-- main end -->
     <!-- footer start-->
-    <footer class="bg-grayDark mt-3">
-      <div class="container">
-        <div class="row text-center py-4 align-middle">
+    <footer class="bg-grayDark mt-3 container-fluid">
+      <div class="row text-center py-4 align-middle">
+        <div class="col-12">
           <p class="text-light">Copyright © 拼拼 All rights reserved.</p>
         </div>
       </div>
     </footer>
     <!-- footer end -->
-    <button type="button" class="btn btn-primary w-100 rounded-0 fixed-bottom d-sm-none">贊助專案</button>
+    <div class="container-fluid fixed-bottom d-sm-none">
+      <div class="row">
+        <div class="col-12">
+          <button type="button" class="btn btn-primary rounded-0 w-100">贊助專案</button>
+        </div>
+      </div>
+    </div>
+    
     
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
