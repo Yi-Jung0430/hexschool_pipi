@@ -110,7 +110,9 @@
         "node_modules/custom/_cuMessage.scss",
         "node_modules/custom/_cuPopover.scss",
         "node_modules/custom/_main.scss",
-        "node_modules/custom/_form.scss"
+        "node_modules/custom/_form.scss",
+        "node_modules/custom/_utilities.scss",
+        "node_modules/custom/_after_configuration.scss"
     ],
     "names": [],
     "file": "custom.css"
